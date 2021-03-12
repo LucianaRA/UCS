@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="430.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="projetointegrador.FXMLDocumentController">
+   <children>
+      <ImageView fx:id="imgLivros" fitHeight="430.0" fitWidth="429.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/harrppedra.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgAutor" fitHeight="431.0" fitWidth="300.0" layoutX="300.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/unnamed.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
